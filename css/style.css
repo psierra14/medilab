@@ -1,0 +1,20 @@
+body{font-family:Segoe UI; font-size: 14px; color: #333;}
+header{background-color: rgba(13,70,83,0.78);padding: 20px 0px;}
+#sec-intro{background-image: url(../img/bg-banner.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;background-attachment: fixed; color: #FFFFFF;text-align: center;}
+.bg-intro{padding:100px 0px; min-height: 300px; background-color:rgba(13,70,83,0.78); }
+#sec-intro h1{ font-size: 40px;text-transform: uppercase; font-weight: bold;}
+#sec-intro p{font-size: 18px;}
+.btn-medilab,
+.btn-medilab:hover{background-color:#0CB8B6;margin-top: 30px;}
+#sec-services{padding: 40px 0px;}
+#sec-services p{color: #999999}
+#sec-service h3{color: #000000; font-size: 18px; font-weight: 600;}
+.icono{width: 60px;height: 60px;line-height: 60px;background-color:#0CB8B6;color: #FFFFFF;display: block;text-align: center;font-size: 22px;font-weight: 600;border-radius: 100%;border: 3px solid #088584; transition:  all 0.5s ease-out; }
+.icono:hover{background-color:#088584;cursor: pointer;transition: all 0.5s ease-in-out;}
+#sec-extra article{background-color: #0CB8B6;color: #FFFFFF;font-size: 12px;}
+.btn-readmore{background-color:#0CB8B6;border-color: #FFFFFF}
+.btn-readmore:hover{text-decoration: none;background-color: transparent;}
+.titulo{font-size: 30px; color:#000; text-transform:uppercase; font-weight: 600px;}
+.titulo::after{ content:''; height: 3px; background-color:#ffb737; width: 60px; display:block;margin: 15px 0px;}
+#sec-doctors{ padding:30px 0px;}
+.border{border: 1px solid #ddd;padding: 2px 5px 20px;}
