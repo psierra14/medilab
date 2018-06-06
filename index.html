@@ -7,7 +7,12 @@
 <title>Bootstrap</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 		  <link href="css/style.css" rel="stylesheet">
+	
 	<!-- SEO -->
 	<meta name="Description" content="medilab es un sitio que encontrará contenido relevante a servicios médicos, laboratorios, doctores generales y con especialidades,servicios de emergencia.">
 	<meta name="Keywords" content="medilab, doctores, especialidades en medicina, medicina, emergencia, clínicas, clínica en tegucigalpa">
@@ -29,11 +34,49 @@
 	
 </head> 
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Questrial');
+</style>
+	
 <body>
 	<header>
-		<div class="container">
+		<!--<div class="container">
 	<img src="img/logo.png" class="img-responsive" alt="logotipo" width="120px">
-			</div>
+			</div>-->
+		<nav class="navbar navbar-default">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" class="img-responsive" alt="logo">
+				
+					</a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Testimonials</a></li>
+					  	  <li><a href="#">Contact</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosotros <span class="caret"></span></a>
+                        	<ul class="dropdown-menu">
+                            	<li><a href="#">Acerca de</a></li>
+                                <li><a href="#">Quienes Somos</a></li>
+                            </ul>
+                        </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
 		
 	
 	
@@ -55,6 +98,11 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 	
 	</section>
 	
+	
+	
+	
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>	
 </body>
 	
 	<section id="sec-services">
@@ -62,26 +110,32 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 		<div class="row">
 			
 			<article class="col-md-4 col-sm-12 col-xs-12">
+				
 			<h2 class="titulo">Our Services</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
 			</article>
 			
 			<article class="col-md-4 col-sm-12 col-xs-12">
-				<span class="icono" >24</span>
+				<!--<span class="icono" >24</span>-->
+				<i class="fas fa-stethoscope"></i>
 				<h3>24 hour support</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			
-				<span class="icono">MC</span>
+				<!--<span class="icono">MC</span-->
+					<i class="fas fa-user-md"></i>
+				
 				<h3>Medical Consulting</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</article>
 			
 			<article class="col-md-4 col-sm-12 col-xs-12">
-				<span class="icono">ES</span>
+			<!--	<span class="icono">ES</span>-->
+				<i class="fas fa-ambulance"></i>
 				<h3>Emergency Services</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		
-				<span class="icono">PH</span>
+				<!--<span class="icono">PH</span>-->
+				<i class="fas fa-briefcase-medical"></i>
 				<h3>Premium Health</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</article>
